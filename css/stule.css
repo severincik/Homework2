@@ -1,0 +1,75 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+}
+
+.web{
+    color: #4D5AE5;
+}
+
+.button{
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    border: 2px solid #E7E9FC;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.button:hover{
+    background-color: #404BBF;
+}
+
+.contacts-email, .contacts-number{
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contacts-email:hover{
+    color: #4D5AE5;
+}
+
+.menu{
+    color: #2E2F42;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu:hover{
+    color: #404BBF;
+}
+
+.webstudio{
+    color: #2E2F42;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.advice{
+    color: #E7E9FC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.level-2-header{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.text{
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
