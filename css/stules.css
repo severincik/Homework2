@@ -1,16 +1,15 @@
 body{
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: #2E2F42
 }
 
 :root {
-    --paragraph:#2E2F42;
+    --black:#2E2F42;
     --web:#4D5AE5;
     --link:#404BBF ;
     --contacts:#434455 ;
     --button:#FFFFFF ;
-    --webstudio:#F4F4FD;
+    --white:#F4F4FD;
     --advice:#E7E9FC; 
   }
 
@@ -18,117 +17,142 @@ body{
     color: var(--web);
 }
 
+
 .list{
     list-style: none;
 }
 
 .main-page{
-    background:  var(--paragraph);
+    background:  var(--black);
 }
 
 .link{
-    color: var(--paragraph);
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
+    
+}
+
+.menu{
+    color: var(--black);
 }
 
 .link:hover{
     color: var(--link);
 }
 
-.contacts-email, .contacts-number{
+.contacts-link{
     color: var(--contacts);
-    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 24px;
 }
 
-.contacts-email:hover{
+.contacts-link:hover{
     color: var(--web);
 }
 
 .button{
-    background-color: var(--web);
-    color: var(--button);
-    border: 0px;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     line-height: 1.5;
 }
 
-.button:hover{
+.filter-button{
+    background-color: var(--web);
+    color: var(--button);
+    border: 0;
+    width: 169px;
+    height: 56px;
+}
+
+.hero-button{
+    background-color: var(--white);
+    border: 1px solid var(--advice);
+    color: var(--web);
+}
+
+.hero-button:hover{
+    color: var(--button);
+    background-color: var(--link);
+    
+}
+
+.filter-button:hover{
     background-color: var(--link);
 }
 
-.webstudio-1{
-    color: var(--paragraph);
+
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--web);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.3;
+    text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
-.webstudio{
-    color: var(--webstudio);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.3
+.header-logo{
+    color: var(--black);
 }
 
-.main-title{
+.footer-logo{
+    color: var(--white);
+}
+
+.sab-title{
     color: var(--button);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
-.level-2-header{
-    color: var(--paragraph);
+.title{
+    color: var(--black);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .text{
     color: var(--contacts);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
 }
 
-.level-3-header{
-    color: var(--paragraph);
+.level-3-title{
+    color: var(--black);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
-.level-4-header{
-    color: var(--paragraph);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1;
-}
 
 .name{
-    color: var(--paragraph);
+    color: var(--black);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-}
-
-.specialty{
-    color: var(--contacts);
-    font-size: 16px;
-    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .advice{
-    color: var(--advise);
+    font-family: 'Roboto';
+    color: var(--advice);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer{
-    background: var(--paragraph);
+    background: var(--black);
 }
